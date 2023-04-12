@@ -3,7 +3,9 @@ import React, { Component } from 'react'
 export default class Footer extends Component {
   render() {
     return (
-      <div>Footer</div>
+      <div className='py-5 bg-dark'>
+        <p className='text-center text-white'>Copyright © Your Website 2023</p>
+      </div>
     )
   }
 }

@@ -5,7 +5,7 @@
 #Carousel{
   display: flex;
   justify-content: center;
-  padding: 36px 40px;
+  padding: 5px 0;
 }
 #Carousel .Content{
   text-align: center;
@@ -19,7 +19,7 @@
 #Carousel .Content p {  
   text-align: justify;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 25px;
 }
 @media only screen and (max-width: 600px) {
   #Carousel .Content h1 {

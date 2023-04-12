@@ -1,0 +1,27 @@
+#content .container{
+    padding: 10px 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+#content .card{
+    text-align: center;
+    padding: 44px;
+    background-color: #f8f9fa;
+    line-height: 1.5;
+    position: relative;
+    border: none;
+}
+#content .card .bx{
+    font-size: 32px;
+    position: absolute;
+    top: -20px;
+    left: 45%;
+    background-color: #2a7ffd;
+    border-radius: 15px;
+    color: white;
+    padding: 3%;
+}
+#content .card h3{
+    font-weight: 500;
+}

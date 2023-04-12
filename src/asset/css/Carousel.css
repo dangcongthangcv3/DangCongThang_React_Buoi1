@@ -1,0 +1,35 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+#Carousel{
+  display: flex;
+  justify-content: center;
+  padding: 36px 40px;
+}
+#Carousel .Content{
+  text-align: center;
+  max-width: 852px;
+}
+#Carousel .Content h1 {
+  padding-top: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+#Carousel .Content p {  
+  text-align: justify;
+  font-weight: 400;
+  font-size: 30px;
+}
+@media only screen and (max-width: 600px) {
+  #Carousel .Content h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 25px;
+  }
+  #Carousel .Content p {  
+    text-align: justify;
+    font-weight: 500;
+    font-size: 15px;
+}
+}

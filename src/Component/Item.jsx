@@ -7,7 +7,7 @@ export default class Item extends Component {
       <section id='content'>
         <div className='container'>
           <div className='row'>
-            <div className="col-6">
+            <div className="col-md-6">
               <div className='list'>
               <div className='card'>
                 <i className='bx bx-collection'></i>
@@ -16,7 +16,7 @@ export default class Item extends Component {
               </div>
             </div>
             </div>
-            <div className="col-6">
+            <div className="col-md-6">
               <div className='list'>
               <div className='card'>
                 <i className='bx bx-collection'></i>
